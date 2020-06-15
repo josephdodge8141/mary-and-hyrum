@@ -1,5 +1,6 @@
 {
   "name": "mary_and_hyrum",
+  "homepage": "http://mary-and-hyrum.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

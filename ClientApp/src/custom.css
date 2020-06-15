@@ -7,6 +7,11 @@ code {
   color: #E01A76;
 }
 
+body {
+    background-image: url(./images/concreteBackground.png);
+    background-size: cover;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

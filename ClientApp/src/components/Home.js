@@ -1,17 +1,16 @@
 /*es-lint disable*/
 import React, { Component } from 'react';
-import concreteBackground from '../images/concreteBackground.png';
 
 const height = window.innerHeight;
 const textStyle = {
-    fontSize: '100px',
+    fontSize: height * .1,
     textAlign: 'center',
     fontFamily: 'MoonLight',
     fontWeight: 'Bold'
 };
 
 const divStyle = {
-    height: height-150,
+    height: height-(height * .1),
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

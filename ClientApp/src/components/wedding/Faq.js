@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 
 const height = window.innerHeight;
 const textStyle = {
@@ -10,22 +10,22 @@ const textStyle = {
 };
 
 const divStyle = {
-    height: height-(height * .1),
+    height: height - (height * .1),
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     fontSize: '100px',
 }
-export class Home extends Component {
-    static displayName = Home.name;
+export class Faq extends Component {
+    static displayName = Faq.name;
 
-  render () {
-      return (
-          <div style={divStyle}>
-              <div style={textStyle}>
-                  Mary and Hyrum
+    render() {
+        return (
+            <div style={divStyle}>
+                <div style={textStyle}>
+                    Mary and Hyrum
               </div>
-          </div>
-    );
-  }
+            </div>
+        );
+    }
 }
